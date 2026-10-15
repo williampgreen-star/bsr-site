@@ -46,4 +46,5 @@ footer{background:#0b2a5b;color:#cfe;padding:20px 0;font-size:.9rem}footer a{col
 <script>document.getElementById('f').onsubmit=function(e){e.preventDefault();var g=function(i){return document.getElementById(i).value};
 var b='Name: '+g('n')+'\nPhone: '+g('p')+'\nAddress: '+g('a')+'\nService: '+g('s')+'\n\n'+g('m');
 location.href='mailto:william.p.green@gmail.com?subject='+encodeURIComponent('BSR request: '+g('s')+' - '+g('n'))+'&body='+encodeURIComponent(b);};</script>
+<script>fetch("https://abacus.jasoncameron.dev/hit/bsr-site-wpg/visits").catch(function(){});</script>
 </body></html>
